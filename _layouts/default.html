@@ -198,5 +198,10 @@ layout: table_wrappers
       <div class="search-overlay"></div>
     {% endif %}
   </div>
+  
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
+  
 </body>
 </html>

@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: JJAN's blog
+title: JJAN's Blog
 # description: A Jekyll theme for documentation
 baseurl: "./" # the subpath of your site, e.g. /blog
 url: "https://JJAN94.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -119,6 +119,13 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: false
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 compress_html:
   clippings: all
