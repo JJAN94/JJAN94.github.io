@@ -137,6 +137,7 @@ compress_html:
   # ignore:
   #   envs: all
 
+repository: "JJAN94/blog_comments"
 comments:
   provider : "utterances"
   utterances:
