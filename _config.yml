@@ -34,7 +34,7 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 
 # Enable or disable the site search
 # Supports true (default) or false
-search_enabled: true
+search_enabled: false
 search:
   # Split pages into sections that can be searched individually
   # Supports 1 - 6, default: 2
@@ -101,6 +101,13 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 color_scheme: nil
 
 # Google Analytics Tracking (optional)
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-JZQDFN8K8X"
+    anonymize_ip         : # true, false (default)
+    
 # e.g, UA-1234567-89
 ga_tracking: UA-2709176-10
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
