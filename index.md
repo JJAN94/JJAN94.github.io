@@ -10,7 +10,7 @@ permalink: /
 
 
 
-## <a href="https://jjan94.github.io/docs/01_%ED%8C%8C%EC%9D%B4%EC%8D%AC">파이썬</a>
+<a href="https://jjan94.github.io/docs/01_%ED%8C%8C%EC%9D%B4%EC%8D%AC">파이썬</a>
 
 
 
@@ -18,7 +18,7 @@ permalink: /
 
 
 
-## 딥러닝
+딥러닝
 
 
 
@@ -26,7 +26,7 @@ permalink: /
 
 
 
-## 컴퓨터비전
+컴퓨터비전
 
 
 
@@ -34,7 +34,7 @@ permalink: /
 
 
 
-## 수학
+수학
 
 
 
@@ -42,7 +42,7 @@ permalink: /
 
 
 
-## CS지식
+CS지식
 
 
 
@@ -50,7 +50,7 @@ permalink: /
 
 
 
-## 시행착오
+시행착오
 
 
 
